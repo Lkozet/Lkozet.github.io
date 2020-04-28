@@ -1,0 +1,27 @@
+body{
+	background-color:#ffffff;
+	font-family:Courier new;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+blockquote:before, blockquote:after {
+    font-size: 3em;
+    color: #800;
+   } 
+   blockquote:before {
+    content: '«';
+    float: left;
+    margin-top: -0.4em;
+   }
+   blockquote:after {
+    content: '»';
+    float: right;
+    margin-top: -1.2em;
+   }
+   blockquote p { margin: 1em 3em; }
+
+   canvas { width: 75%; height: 75%; margin: 3%;}
