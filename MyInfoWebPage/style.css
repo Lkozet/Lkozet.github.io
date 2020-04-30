@@ -31,6 +31,7 @@ blockquote:before, blockquote:after {
     white-space: nowrap; /* Запрещаем переносы слов */
     animation: marquee 10s linear infinite alternate;
     padding: 5px;
+    font-size: 15pt;
    }
    @keyframes marquee {
     from { text-indent: 100%; }
@@ -50,7 +51,3 @@ td {border: 1px solid grey;}
     margin-left:auto;
     margin-right:auto;
   }
-
-  myfont{
-    font-size: 15pt; 
-      }
