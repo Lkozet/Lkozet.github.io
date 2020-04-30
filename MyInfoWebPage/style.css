@@ -37,6 +37,15 @@ blockquote:before, blockquote:after {
     to { text-indent: 0; }
    }
 
+table {
+  margin: 0 auto;
+border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+border: 1px solid grey;
+width: 600px;
+}
+
+td {border: 1px solid grey;}
+
    center{
     text-align:center;
     margin-left:auto;
