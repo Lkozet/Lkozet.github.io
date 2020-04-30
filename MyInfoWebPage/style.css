@@ -25,3 +25,14 @@ blockquote:before, blockquote:after {
    blockquote p { margin: 1em 3em; }
 
    canvas { width: 75%; height: 75%; margin: 3%;}
+
+   .marquee {
+    overflow: hidden;
+    white-space: nowrap; /* Запрещаем переносы слов */
+    animation: marquee 10s linear infinite alternate;
+    padding: 5px;
+   }
+   @keyframes marquee {
+    from { text-indent: 100%; }
+    to { text-indent: 0; }
+   }
