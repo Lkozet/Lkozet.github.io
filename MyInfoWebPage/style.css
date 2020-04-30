@@ -40,7 +40,7 @@ blockquote:before, blockquote:after {
 table {margin-left:auto; margin-right:auto;
 border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
 border: 1px solid grey;
-width: 600px;
+max-width: 60%;
 }
 
 td {border: 1px solid grey;}
